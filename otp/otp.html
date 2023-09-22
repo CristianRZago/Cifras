@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>One Time Pad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>One Time Pad</h1>
+        <label for="message">Mensagem (Decimal):</label>
+        <input type="number" id="message" min="0">
+        <label for="key">Chave (Decimal):</label>
+        <input type="number" id="key" min="0">
+        <button id="encryptButton">Criptografar</button>
+        <div class="result">
+            <h2>Resultado Criptografia:</h2>
+            <p id="encryptedMessage"></p>
+        </div>
+        <div class="decrypt-box">
+            <h2>Descriptografar (Decimal)</h2>
+            <label for="encryptedMessageInput">Mensagem Criptografada (Binário):</label>
+            <input type="text" id="encryptedMessageInput">
+            <label for="decryptKey">Chave (Decimal):</label>
+            <input type="number" id="decryptKey" min="0">
+            <button id="decryptButton">Descriptografar</button>
+            <div class="result">
+                <h2>Resultado Descriptografia (Decimal):</h2>
+                <p id="decryptedMessage"></p>
+            </div>
+        </div>
+        <div class="decrypt-binary-box">
+            <h2>Descriptografar (Binário)</h2>
+            <label for="encryptedMessageBinaryInput">Mensagem Criptografada (Binário):</label>
+            <input type="text" id="encryptedMessageBinaryInput">
+            <label for="decryptKeyBinary">Chave (Binário):</label>
+            <input type="text" id="decryptKeyBinary">
+            <button id="decryptBinaryButton">Descriptografar (Binário)</button>
+            <div class="result">
+                <h2>Resultado Descriptografia (Binário):</h2>
+                <p id="decryptedMessageBinary"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

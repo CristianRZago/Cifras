@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifra de Vigenere</title>
+    <script src="vigenere.js"></script>
+    <link rel="stylesheet" href="vigenere.css">
+</head>
+<body>
+    <h1>Cifra de Vigenere</h1>
+
+    <label for="mensagem">Digite a mensagem:</label>
+    <input type="text" id="mensagem" placeholder="Mensagem">
+
+    <label for="chave">Digite a chave:</label>
+    <input type="text" id="chave" placeholder="Chave"><br>
+
+    <button onclick="criptografar()">Criptografar</button> <br>
+    <button onclick="descriptografar()">Descriptografar</button>
+
+    <p>Resultado: <span id="resultado"></span></p>
+
+</body>

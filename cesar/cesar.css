@@ -1,0 +1,58 @@
+/* Estilização do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+/* Estilização do cabeçalho (h1) */
+h1 {
+    color: #333;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilização de rótulos (labels) */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilização de campos de entrada (input) */
+input[type="text"],
+input[type="number"],
+button {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilização de botões */
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilização de parágrafos (p) */
+p {
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Estilização do resultado (span) */
+#resultado {
+    font-weight: bold;
+    color: #007bff;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifra de Cesar</title>
+    <script src="cesar.js" defer></script>
+    <link rel="stylesheet" href="cesar.css">
+</head>
+<body>
+    <h1 >Cifra de Cesar</h1>
+
+    <label for="mensagem">Digite a mensagem:</label>
+    <input type="text" id="mensagem" placeholder="Mensagem">
+
+    <label for="chave">Digite a chave de deslocamento:</label>
+    <input type="number" id="chave" placeholder="Chave"> <br>
+
+    <button onclick="criptografar()">Criptografar</button> <br>
+    <button onclick="descriptografar()">Descriptografar</button>
+
+    <p>Resultado: <span id="resultado"></span></p>
+</body>
